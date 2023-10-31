@@ -25,7 +25,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   [X] Common HTTP Features,[X] IIS Management Console)
 - Item 3 - Download and install PHP Manager for IIS - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
 - Item 4 - Download and install Rewrite Module - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
-- Item 5
+- Item 5 - Create the directory C:\PHP
+- Item 6 - Download PHP - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 Unzip the contents into C:\PHP
+- Item 7 - Download and Install VC_redist - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view
+- Item 8 - Download and Install  MySQL - https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view 
+
 
 <h2>Installation Steps</h2>
 
