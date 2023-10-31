@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Item 1 - Setting Up a Vitural Machine in Microsoft Azure
-- Item 2 - Install / Enable IIS in Windows With CGI and Common HTTP Features ([X] CGI,
+- Item 2 - Control panel -> Programs -> Turn Windows  Install / Enable IIS in Windows With CGI and Common HTTP Features ([X] CGI,
   [X] Common HTTP Features,[X] IIS Management Console)
 - Item 3 - Download and install PHP Manager for IIS - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
 - Item 4 - Download and install Rewrite Module - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
