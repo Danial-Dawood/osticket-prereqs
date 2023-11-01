@@ -76,6 +76,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 15 - Before exacting out Click the include folder and go to "ost-config.php" right click the application and go to permissions and set it back to read only.(we had changed the 
   name of this app. earlier as well as chnagde it permission)
    
-- Login site - http://localhost/osTicket/scp/login.php (Help Desk Workers)
-- Client site - http://localhost/osTicket/ (Customer)
+- Login site - http://localhost/osTicket/scp/login.php (Help Desk Workers/ where we will manange and hopefully find solutions to the problems )
+- Client site - http://localhost/osTicket/ (This is tickets would be started by clients ) 
 
