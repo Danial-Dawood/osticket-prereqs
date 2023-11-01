@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 3 - Download and install PHP Manager for IIS (nothing special with this instaltion just go through it.)  - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
 - Item 4 - Download and install Rewrite Module(Same for this go through and install) - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
 - Item 5 - Create the directory C:\PHP
-- Item 6 - This is the PHP that you need to download(PHP 7.3.8-nts-win32-v15-x86.zip <img width="1440" alt="Screen Shot 2023-11-01 at 12 15 34 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/e1b6b563-2f16-43c1-b196-f4695395ae18">
+- Item 6 - This is the PHP that you need to download(PHP 7.3.8-nts-win32-v15-x86.zip) <img width="1440" alt="Screen Shot 2023-11-01 at 12 15 34 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/e1b6b563-2f16-43c1-b196-f4695395ae18">
 - Item 6.5 - Download PHP - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 Unzip the contents into C:\PHP( when doing this step its easiest to go tot the 
   downloads and right click the PHP and click extract all and it will ask where you want to extract to, click browse and go to c drive and then click the PHP folder you made earlier 
 - Item 7 - Download and Install VC_redist (no special steps) - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view
@@ -55,14 +55,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Enable: php_intl.dll
   Enable: php_opcache.dll
 -  Item 11.75 - Once you have enabled all of those extensions you will go back and refresh your server in IIS manager and then go to the web browser where you have the osTciket 
-  installer and refresh that and you will notice some of the (x)'s have gone away and have been replacced with checks. this is what is should look like <img width="1440" alt="Screen Shot 2023-11-01 at 1 50 08 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/27352d83-02e8-469e-ab12-329c07150612">
-
- 
-- Item 12 - Rename: ost-config.php From: ost-sampleconfig.php remove the 'sample' To make is ost-config.php (The pathway you need to follow is going to your "C Drive" then to "inetpup" to "wwwroot" to "osTicket" then finally into "include" you can searcher for it in the include folder or just scroll down. The pathway will also be at the top of the ScreenCap <img width="1440" alt="Screen Shot 2023-11-01 at 1 58 29 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/52574581-295f-4596-b109-6564046d6d86">
-
-- Item 13 - Assign Permissions: ost-config.php, Disable inheritance -> Remove All ,New Permissions -> Everyone -> All
-- Item 14 - Download and Install HeidiSQL - https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe
-- Item 14.5 - Create a database called “osTicket”
+   installer and refresh that and you will notice some of the (x)'s have gone away and have been replacced with checks. this is what is should look like <img width="1440" alt="Screen Shot 2023-11-01 at 1 50 08 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/27352d83-02e8-469e-ab12-329c07150612">
+- Item 12 - Rename: ost-config.php From: ost-sampleconfig.php remove the 'sample' To make is ost-config.php (The pathway you need to follow is going to your "C Drive" then to "inetpup" 
+   to "wwwroot" to "osTicket" then finally into "include" you can searcher for it in the include folder or just scroll down. The pathway will also be at the top of the ScreenCap <img width="1440" alt="Screen Shot 2023-11-01 at 1 58 29 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/52574581-295f-4596-b109-6564046d6d86">
+- Item 13 - Dont close out of the file manger yet after changed the name of the osTicket right click it and go to properties then Security and then Advanced. At the bottom left their 
+  will be a button that says disable inheritance( this means it will start getting all of its persmissions from its parent.) Then we will click on Disable inheritance(the bottom 
+  option) then click "select a principal" a pop up will appear and at the bottom of the three spaces where you can enter information(The one with nothing in it, it also says "Enter a 
+  object name to Select right above it " You will enter "everyone" then click check names. if it does this correctly it will underline it and caps the first letter. then click Okay and 
+  Check the Box that states full control.Then Apply and Okay(x3)
+- Item 13.5 - Go to the browser with the osTicket installer and click continue at the bottom of the page. Then start setting it up, under "Helpdesk Name" put your name and then "help 
+  desk." Under Default Email put "your name @helper.com" (Write all this information down) <img width="1440" alt="Screen Shot 2023-11-01 at 2 28 13 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/50499327-6099-43d4-ac5c-6c0de71db825"> Before we can finish bottom section we need to install HeidiSQL.
+- Item 14 - Download and Install HeidiSQL - https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe (normal installed just make sure that at the last page of the install the 
+  box that says "Lanuch HeidiSQL" is checked. So that it will open upon completion of instaltion.
+- Item 14.25 - Click new at the bottom left, then at the right side under Username and Password, the user should be "root" and which ever password you have made. This is what it looks 
+  like when you have established a connection with MySQL Server. Fill out the username(root) and the password you have made iside the osTicket Installer in your browser.   
+- Item 14.5 - Create a database called “osTicket” Inside HeidiSQL (Right clicked the Unnamed folder at the top left under the words data based filter, Create a database and Makesure to spell the name "osTicket" if no error messages have come after you click okay then your good to go.) All thats left is for you is to input the name of the data base you just created into the osTicket installer under My SQL Databse
 - Item 15 -  Login site - http://localhost/osTicket/scp/login.php (Help Desk Workers)
 - Item 15.5 - Client site - http://localhost/osTicket/ (Customer)
 
