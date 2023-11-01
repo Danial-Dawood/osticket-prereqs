@@ -40,12 +40,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   new Version PHP.
 - Item 9.5 - A window will pop up you will have the option to browse, go to the c drive, go to the PHP folder that was made, click it and we are going to select PHP-CGI. (It even gives 
   you the pathway you suppose to take as the example and the item youre supposed to click) <img width="1440" alt="Screen Shot 2023-11-01 at 1 20 21 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/b2b4d3f7-92ba-4400-85f1-d0f64d88ed3d">
-
-
+- Item 9.75 - Its good practice to restart your server everytime you change soemthing so click the name of your server(on the top right under connections) and then click the restart 
+  button(all the way on your right under the action tab.) 
 - Item 10 - Install osTicket v1.15.8 - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-- Item 10.5 - Extract and copy “upload” folder to c:\inetpub\wwwroot , Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” ,Reload IIS 
+- Item 10.5 - Extract and copy “upload” folder to c:\inetpub\wwwroot , Within c:\inetpub\wwwroot,<img width="1440" alt="Screen Shot 2023-11-01 at 1 29 30 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/1c6015b0-1ae1-4ea6-b19d-d85c899e2caf"> (the pathway you need to go is shown at the top takes a couple minutes to copy the folder over) After rename “upload” to “osTicket” ,Reload IIS same way as before( click the server and click restart) 
   (Open IIS, Stop and Start the server)
-- Item 11 - Go back to IIS, sites -> Default -> osTicket, Double-click PHP Manager,Click “Enable or disable an extension”
+- Item 11 - Go back to IIS, sites -> Default web site-> osTicket, then browse*:80(http)<- all the way on the right should come up after only after click osTciket once and a page should 
+  pop up (osTicket Installer) <img width="1440" alt="Screen Shot 2023-11-01 at 1 39 10 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/ecb5b22e-8cd9-45e4-bb3b-4804aac1a84d">
+(if does not pop up one of the prerequisites was not done correctly. Restart or find out where you messed up)
+-  Double-click PHP Manager,Click “Enable or disable an extension”
   Enable: php_imap.dll
   Enable: php_intl.dll
   Enable: php_opcache.dll
