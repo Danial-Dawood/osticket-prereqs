@@ -30,8 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 3 - Download and install PHP Manager for IIS (nothing special with this instaltion just go through it.)  - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
 - Item 4 - Download and install Rewrite Module(Same for this go through and install) - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
 - Item 5 - Create the directory C:\PHP
-- Item 6 <img width="1440" alt="Screen Shot 2023-11-01 at 12 15 34 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/e1b6b563-2f16-43c1-b196-f4695395ae18">
-This is the PHP that you need to download(PHP 7.3.8-nts-win32-v15-x86.zip
+- Item 6 - This is the PHP that you need to download(PHP 7.3.8-nts-win32-v15-x86.zip <img width="1440" alt="Screen Shot 2023-11-01 at 12 15 34 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/e1b6b563-2f16-43c1-b196-f4695395ae18">
 - Item 6.5 - Download PHP - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 Unzip the contents into C:\PHP
 - 
 - Item 7 - Download and Install VC_redist - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view
