@@ -58,8 +58,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   installer and refresh that and you will notice some of the (x)'s have gone away and have been replacced with checks. this is what is should look like <img width="1440" alt="Screen Shot 2023-11-01 at 1 50 08 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/27352d83-02e8-469e-ab12-329c07150612">
 
  
-- Item 12 - Rename: ost-config.php From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php remove the 'sample' To:         
-  C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Item 12 - Rename: ost-config.php From: ost-sampleconfig.php remove the 'sample' To make is ost-config.php (The pathway you need to follow is going to your "C Drive" then to "inetpup" to "wwwroot" to "osTicket" then finally into "include" you can searcher for it in the include folder or just scroll down. The pathway will also be at the top of the ScreenCap <img width="1440" alt="Screen Shot 2023-11-01 at 1 58 29 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/52574581-295f-4596-b109-6564046d6d86">
+
 - Item 13 - Assign Permissions: ost-config.php, Disable inheritance -> Remove All ,New Permissions -> Everyone -> All
 - Item 14 - Download and Install HeidiSQL - https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe
 - Item 14.5 - Create a database called “osTicket”
