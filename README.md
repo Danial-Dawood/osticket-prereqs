@@ -31,11 +31,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 4 - Download and install Rewrite Module(Same for this go through and install) - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
 - Item 5 - Create the directory C:\PHP
 - Item 6 - This is the PHP that you need to download(PHP 7.3.8-nts-win32-v15-x86.zip <img width="1440" alt="Screen Shot 2023-11-01 at 12 15 34 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/e1b6b563-2f16-43c1-b196-f4695395ae18">
-- Item 6.5 - Download PHP - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 Unzip the contents into C:\PHP
-- Item 7 - Download and Install VC_redist - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view
+- Item 6.5 - Download PHP - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 Unzip the contents into C:\PHP( when doing this step its easiest to go tot the 
+  downloads and right click the PHP and click extract all and it will ask where you want to extract to, click browse and go to c drive and then click the PHP folder you made earlier 
+- Item 7 - Download and Install VC_redist (no special steps) - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view
 - Item 8 - Download and Install  MySQL - https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view
-- Item 8.5 - Instaltion setting for My SQL (Typical Setup ->Launch Configuration Wizard (after install) ->Standard Configuration ->)
-- Item 9 - Open IIS as an Admin, Register PHP from within IIS, Reload IIS (Open IIS, Stop and Start the server)
+- Item 8.5 - Instaltion setting for My SQL (Typical Setup ->Launch Configuration Wizard (after install) ->Standard Configuration )(this is going to be the data base for osTicket)
+- Item 9 - Open IIS as an Admin, (click on PHP Manager should have a error message that says PHP is not enabled. Register New PHP version to enable PHP via FastCGI.)Click on Register 
+  new Version PHP.
+- Item 9.5 - A window will pop up you will have the option to browse, go to the c drive, go to the PHP folder that was made, click it and we are going to select PHP-CGI. (It even gives 
+  you the pathway you suppose to take as the example and the item youre supposed to click) <img width="1440" alt="Screen Shot 2023-11-01 at 1 20 21 AM" src="https://github.com/Danial- 
+  Dawood/osticket-prereqs/assets/149525309/ca9e4175-6f14-4c5c-9d0d-2ba27e729c27">
+
 - Item 10 - Install osTicket v1.15.8 - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 - Item 10.5 - Extract and copy “upload” folder to c:\inetpub\wwwroot , Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” ,Reload IIS 
   (Open IIS, Stop and Start the server)
