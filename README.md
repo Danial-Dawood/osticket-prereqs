@@ -20,13 +20,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1 - Setting Up a Vitural Machine in Microsoft Azure
+- Item 1 - Setting Up a Vitural Machine in Microsoft Azure (Windows 10.)
 - Item 2 - Control panel -> Programs -> Turn Windows features on and off -> Install / Enable IIS in Windows With CGI and Common HTTP Features ([X] CGI,
-  [X] Common HTTP Features,[X] IIS Management Console)
-- Item 3 - Download and install PHP Manager for IIS - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
-- Item 4 - Download and install Rewrite Module - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
+  [X] Common HTTP Features,[X] IIS Management Console) <img width="1440" alt="Screen Shot 2023-10-31 at 11 52 19 PM" src="https://github.com/Danial-Dawood/osticket- 
+  prereqs/assets/149525309/7b316051-babd-44c7-8ac5-343d6c5411c1"> These are all the options that need to be Checked off. After doing this click okay and it will install IIS(Internet 
+  Information Servies.)
+- Item 2.5 - To test if you did download it go to the web browser and go to 127.0.0.1( this is the local host / loopback, this is telling the computer to try and run a website off its 
+  self) if this doesnt work go through and uninstal and reinstall IIS and all of the other checks.
+- Item 3 - Download and install PHP Manager for IIS (nothing special with this instaltion just go through it.)  - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
+- Item 4 - Download and install Rewrite Module(Same for this go through and install) - https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view
 - Item 5 - Create the directory C:\PHP
-- Item 6 - Download PHP - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 Unzip the contents into C:\PHP
+- Item 6 <img width="1440" alt="Screen Shot 2023-11-01 at 12 15 34 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/e1b6b563-2f16-43c1-b196-f4695395ae18">
+This is the PHP that you need to download(PHP 7.3.8-nts-win32-v15-x86.zip
+- Item 6.5 - Download PHP - https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 Unzip the contents into C:\PHP
+- 
 - Item 7 - Download and Install VC_redist - https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view
 - Item 8 - Download and Install  MySQL - https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view
 - Item 8.5 - Instaltion setting for My SQL (Typical Setup ->Launch Configuration Wizard (after install) ->Standard Configuration ->)
