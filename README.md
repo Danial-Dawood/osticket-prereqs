@@ -22,9 +22,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Item 1 - Setting Up a Vitural Machine in Microsoft Azure (Windows 10.)
 - Item 2 - Control panel -> Programs -> Turn Windows features on and off -> Install / Enable IIS in Windows With CGI and Common HTTP Features ([X] CGI,
-  [X] Common HTTP Features,[X] IIS Management Console) <img width="1440" alt="Screen Shot 2023-10-31 at 11 52 19 PM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/94c0442a-fc49-414a-9b41-050ac04d877f">
- These are all the options that need to be Checked off. After doing this click okay and it will install IIS(Internet 
-  Information Servies.)
+  [X] Common HTTP Features,[X] IIS Management Console)  These are all the options that need to be Checked off. After doing this click okay and it will install IIS(Internet 
+  Information Servies.) <img width="1440" alt="Screen Shot 2023-10-31 at 11 52 19 PM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/94c0442a-fc49-414a-9b41-050ac04d877f">
+
 - Item 2.5 - To test if you did download it go to the web browser and go to 127.0.0.1( this is the local host / loopback, this is telling the computer to try and run a website off its 
   self) if this doesnt work go through and uninstal and reinstall IIS and all of the other checks.
 - Item 3 - Download and install PHP Manager for IIS (nothing special with this instaltion just go through it.)  - https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view
