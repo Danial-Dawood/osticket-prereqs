@@ -47,8 +47,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   (Open IIS, Stop and Start the server)
 - Item 11 - Go back to IIS, sites -> Default web site-> osTicket, then browse*:80(http)<- all the way on the right should come up after only after click osTciket once and a page should 
   pop up (osTicket Installer) <img width="1440" alt="Screen Shot 2023-11-01 at 1 39 10 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/ecb5b22e-8cd9-45e4-bb3b-4804aac1a84d">
-(if does not pop up one of the prerequisites was not done correctly. Restart or find out where you messed up)
--  Double-click PHP Manager,Click “Enable or disable an extension”
+  (if does not pop up one of the prerequisites was not done correctly. Restart or find out where you messed up)
+- Item 11.5 - Double-click PHP Manager(Use drop down menus on the right until you find osTicket and PHP manger should be displayed in the middle section of the screen(with full screen it is in the middle row all the way to your right <img width="1440" alt="Screen Shot 2023-11-01 at 1 44 58 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/70b6608c-a953-4c48-9759-cf89c414edf3">
+,Click “Enable or disable an extension”
   Enable: php_imap.dll
   Enable: php_intl.dll
   Enable: php_opcache.dll
