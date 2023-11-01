@@ -69,7 +69,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   box that says "Lanuch HeidiSQL" is checked. So that it will open upon completion of instaltion.
 - Item 14.25 - Click new at the bottom left, then at the right side under Username and Password, the user should be "root" and which ever password you have made. This is what it looks 
   like when you have established a connection with MySQL Server. Fill out the username(root) and the password you have made iside the osTicket Installer in your browser.   
-- Item 14.5 - Create a database called “osTicket” Inside HeidiSQL (Right clicked the Unnamed folder at the top left under the words data based filter, Create a database and Makesure to spell the name "osTicket" if no error messages have come after you click okay then your good to go.) All thats left is for you is to input the name of the data base you just created into the osTicket installer under My SQL Databse
+- Item 14.5 - Create a database called “osTicket” Inside HeidiSQL (Right clicked the Unnamed folder at the top left under the words data based filter, Create a database and Makesure to 
+  spell the name "osTicket" if no error messages have come after you click okay then your good to go.) All thats left is for you is to input the name of the data base you just created 
+  into the osTicket installer under My SQL Databs.
+- Item  14.75 - All thats left is to clean up and setting permissions to read only, First we will delete the setup folder. Which is under your C Drive then inetpub/wwwroot/osTciket and the folder is called setup(the Pathway is also listed at the top) <img width="1440" alt="Screen Shot 2023-11-01 at 1 53 59 PM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/66abe9b6-47cb-4937-8b1f-a993e3649b91"> 
+   
 - Item 15 -  Login site - http://localhost/osTicket/scp/login.php (Help Desk Workers)
 - Item 15.5 - Client site - http://localhost/osTicket/ (Customer)
 
