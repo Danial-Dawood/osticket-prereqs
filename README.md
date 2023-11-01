@@ -72,8 +72,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 14.5 - Create a database called “osTicket” Inside HeidiSQL (Right clicked the Unnamed folder at the top left under the words data based filter, Create a database and Makesure to 
   spell the name "osTicket" if no error messages have come after you click okay then your good to go.) All thats left is for you is to input the name of the data base you just created 
   into the osTicket installer under My SQL Databs.
-- Item  14.75 - All thats left is to clean up and setting permissions to read only, First we will delete the setup folder. Which is under your C Drive then inetpub/wwwroot/osTciket and the folder is called setup(the Pathway is also listed at the top) <img width="1440" alt="Screen Shot 2023-11-01 at 1 53 59 PM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/66abe9b6-47cb-4937-8b1f-a993e3649b91"> 
+- Item  14.75 - All thats left is to clean up and setting permissions to read only, First we will delete the setup folder. Which is under your C Drive then inetpub/wwwroot/osTciket and the folder is called setup(the Pathway is also listed at the top) <img width="1440" alt="Screen Shot 2023-11-01 at 1 53 59 PM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/66abe9b6-47cb-4937-8b1f-a993e3649b91">
+- Item 15 - Before exacting out Click the include folder and go to "ost-config.php" right click the application and go to permissions and set it back to read only.(we had changed the 
+  name of this app. earlier as well as chnagde it permission)
    
-- Item 15 -  Login site - http://localhost/osTicket/scp/login.php (Help Desk Workers)
-- Item 15.5 - Client site - http://localhost/osTicket/ (Customer)
+- Login site - http://localhost/osTicket/scp/login.php (Help Desk Workers)
+- Client site - http://localhost/osTicket/ (Customer)
 
