@@ -55,7 +55,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Enable: php_intl.dll
   Enable: php_opcache.dll
 -  Item 11.75 - Once you have enabled all of those extensions you will go back and refresh your server in IIS manager and then go to the web browser where you have the osTciket 
-  installer and refresh that and you will notice some of the (x)'s have gone away and have been replacced with checks. this is what is should look like <img width="1440" alt="Screen Shot 2023-11-01 at 1 44 58 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/c6844ac3-f492-47c9-9b91-99048fa9581b">
+  installer and refresh that and you will notice some of the (x)'s have gone away and have been replacced with checks. this is what is should look like <img width="1440" alt="Screen Shot 2023-11-01 at 1 50 08 AM" src="https://github.com/Danial-Dawood/osticket-prereqs/assets/149525309/27352d83-02e8-469e-ab12-329c07150612">
+
  
 - Item 12 - Rename: ost-config.php From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php remove the 'sample' To:         
   C:\inetpub\wwwroot\osTicket\include\ost-config.php
